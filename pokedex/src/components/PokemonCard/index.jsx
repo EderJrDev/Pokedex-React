@@ -7,7 +7,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function PokemonCard({ name, image }) {
     return (
-        <Card  className='cards' sx={{ maxWidth: 345 }}>
+        <Card  className='cards' sx={{ maxWidth: 345, backgroundColor: '#5178c6' }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
